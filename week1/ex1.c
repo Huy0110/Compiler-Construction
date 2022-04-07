@@ -125,14 +125,6 @@ void readFile(char* fileName ,treetype* words, treetype* stopWs)
 			word[count++]=c;
 			if(!isWord) isWord=true;
 		}		
-		/*
-		if(pre_pre == '.')
-		{
-		printf("pre_pre: %c\n", pre_pre);
-		printf("prevC: %c\n", prevC);
-		printf("c: %c\n", c);
-		}
-		*/
 	}
 	fclose(f);
 }
